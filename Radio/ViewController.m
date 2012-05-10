@@ -31,4 +31,15 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UIButton *button = (UIButton *)sender;
+    UIViewController *vc = [segue destinationViewController];
+    vc.title = button.titleLabel.text;
+    
+    NSString *methodName =[[vc.title lowercaseString] stringByAppendingString: @"Color"];
+    SEL selector = NSSelectorFromString(methodName);
+    vc.view.backgroundColor = [UIColor performSelector:selector];
+}
+
 @end

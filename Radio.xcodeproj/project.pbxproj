@@ -37,20 +37,20 @@
 		63411CD5155B7EAD00561872 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63411CD7155B7EAD00561872 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63411CD9155B7EAD00561872 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		63411CDD155B7EAD00561872 /* Radio-Info.plist */ = {isa = PBXFileReference; path = "Radio-Info.plist"; sourceTree = "<group>"; };
+		63411CDD155B7EAD00561872 /* Radio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Radio-Info.plist"; sourceTree = "<group>"; };
 		63411CDF155B7EAD00561872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63411CE1155B7EAD00561872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63411CE3155B7EAD00561872 /* Radio-Prefix.pch */ = {isa = PBXFileReference; path = "Radio-Prefix.pch"; sourceTree = "<group>"; };
-		63411CE4155B7EAD00561872 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		63411CE3155B7EAD00561872 /* Radio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Radio-Prefix.pch"; sourceTree = "<group>"; };
+		63411CE4155B7EAD00561872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63411CE5155B7EAD00561872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		63411CE8155B7EAD00561872 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		63411CEA155B7EAD00561872 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		63411CEA155B7EAD00561872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		63411CEB155B7EAD00561872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		63411CF2155B7EAD00561872 /* RadioTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63411CF3155B7EAD00561872 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		63411CFB155B7EAD00561872 /* RadioTests-Info.plist */ = {isa = PBXFileReference; path = "RadioTests-Info.plist"; sourceTree = "<group>"; };
+		63411CFB155B7EAD00561872 /* RadioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadioTests-Info.plist"; sourceTree = "<group>"; };
 		63411CFD155B7EAD00561872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		63411CFF155B7EAD00561872 /* RadioTests.h */ = {isa = PBXFileReference; path = RadioTests.h; sourceTree = "<group>"; };
+		63411CFF155B7EAD00561872 /* RadioTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioTests.h; sourceTree = "<group>"; };
 		63411D00155B7EAD00561872 /* RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
