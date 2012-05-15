@@ -429,6 +429,7 @@
 				63411D06155B7EAD00561872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63411D07155B7EAD00561872 /* Build configuration list for PBXNativeTarget "RadioTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +438,7 @@
 				63411D09155B7EAD00561872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
