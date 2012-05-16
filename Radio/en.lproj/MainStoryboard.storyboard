@@ -21,7 +21,48 @@
             </objects>
             <point key="canvasLocation" x="-224" y="31"/>
         </scene>
-        <!--View Controller-->
+        <!--State View Controller-->
+        <scene sceneID="m9P-Ex-5vb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e0E-8y-RIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="0ba-SR-Vcg" customClass="StateViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Am-tm-wzA">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="4sn-Q5-t4O">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="G6k-YD-p8S">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="xNj-t9-bPg">
+                                                <rect key="frame" x="20" y="83" width="280" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ce6-2Y-xR8"/>
+                    <connections>
+                        <outlet property="bigLabel" destination="xNj-t9-bPg" id="a0W-xg-KPY"/>
+                        <outlet property="view" destination="6Am-tm-wzA" id="1Dj-20-286"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="663" y="31"/>
+        </scene>
+        <!--View Controller - States-->
         <scene sceneID="Bcr-Ii-RSX">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QTZ-S6-c0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -48,6 +89,9 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <connections>
+                                    <segue destination="0ba-SR-Vcg" kind="push" id="076-JG-JBW"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -55,13 +99,20 @@
                             <outlet property="delegate" destination="GUA-7x-q3i" id="U5v-I8-HgB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="pLM-CZ-gZf"/>
+                    <navigationItem key="navigationItem" title="States" id="pLM-CZ-gZf"/>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="216" y="31"/>
         </scene>
     </scenes>
     <classes>
+        <class className="StateViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/StateViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="bigLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="state" candidateClass="NSString"/>
+            </relationships>
+        </class>
         <class className="ViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
         </class>

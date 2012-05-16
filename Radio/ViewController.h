@@ -10,6 +10,6 @@
 
 @interface ViewController : UITableViewController
 
-@property (strong) NSArray *states;
+@property (nonatomic, strong) NSArray *states;
 
 @end

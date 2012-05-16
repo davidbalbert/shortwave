@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "StateViewController.h"
 
 @interface ViewController ()
 
@@ -47,6 +48,13 @@
     cell.textLabel.text = [states objectAtIndex:indexPath.row];
 
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UITableViewCell *cell = (UITableViewCell *)sender;
+    StateViewController *vc = [segue destinationViewController];
+    vc.state = cell.textLabel.text;
 }
 
 @end

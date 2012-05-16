@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634001A315636A3F00925F85 /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634001A215636A3F00925F85 /* StateViewController.m */; };
 		63411CD6155B7EAD00561872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63411CD5155B7EAD00561872 /* UIKit.framework */; };
 		63411CD8155B7EAD00561872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63411CD7155B7EAD00561872 /* Foundation.framework */; };
 		63411CDA155B7EAD00561872 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63411CD9155B7EAD00561872 /* CoreGraphics.framework */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		634001A115636A3F00925F85 /* StateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		634001A215636A3F00925F85 /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
 		63411CD1155B7EAD00561872 /* Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63411CD5155B7EAD00561872 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63411CD7155B7EAD00561872 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,8 @@
 				63411CE4155B7EAD00561872 /* AppDelegate.h */,
 				63411CE5155B7EAD00561872 /* AppDelegate.m */,
 				63411CE7155B7EAD00561872 /* MainStoryboard.storyboard */,
+				634001A115636A3F00925F85 /* StateViewController.h */,
+				634001A215636A3F00925F85 /* StateViewController.m */,
 				63411CEA155B7EAD00561872 /* ViewController.h */,
 				63411CEB155B7EAD00561872 /* ViewController.m */,
 				63411CDC155B7EAD00561872 /* Supporting Files */,
@@ -260,6 +265,7 @@
 				63411CE2155B7EAD00561872 /* main.m in Sources */,
 				63411CE6155B7EAD00561872 /* AppDelegate.m in Sources */,
 				63411CEC155B7EAD00561872 /* ViewController.m in Sources */,
+				634001A315636A3F00925F85 /* StateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
