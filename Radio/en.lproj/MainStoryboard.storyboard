@@ -60,7 +60,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="663" y="31"/>
+            <point key="canvasLocation" x="633" y="31"/>
         </scene>
         <!--View Controller - States-->
         <scene sceneID="Bcr-Ii-RSX">
@@ -90,7 +90,7 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <connections>
-                                    <segue destination="0ba-SR-Vcg" kind="push" id="076-JG-JBW"/>
+                                    <segue destination="0ba-SR-Vcg" kind="push" id="uxg-rs-XOe"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
