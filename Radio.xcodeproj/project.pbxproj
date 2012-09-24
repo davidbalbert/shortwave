@@ -21,6 +21,9 @@
 		63411CF6155B7EAD00561872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63411CD7155B7EAD00561872 /* Foundation.framework */; };
 		63411CFE155B7EAD00561872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63411CFC155B7EAD00561872 /* InfoPlist.strings */; };
 		63411D01155B7EAD00561872 /* RadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63411D00155B7EAD00561872 /* RadioTests.m */; };
+		6352D1B716100A6A002CB780 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6352D1B616100A6A002CB780 /* Default@2x.png */; };
+		6352D1BA16100ADE002CB780 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6352D1B916100ADE002CB780 /* Default.png */; };
+		6352D1BC16100AF7002CB780 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6352D1BB16100AF7002CB780 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		63411CFD155B7EAD00561872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63411CFF155B7EAD00561872 /* RadioTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioTests.h; sourceTree = "<group>"; };
 		63411D00155B7EAD00561872 /* RadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioTests.m; sourceTree = "<group>"; };
+		6352D1B616100A6A002CB780 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6352D1B916100ADE002CB780 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6352D1BB16100AF7002CB780 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 		63411CC6155B7EAD00561872 = {
 			isa = PBXGroup;
 			children = (
+				6352D1BB16100AF7002CB780 /* Default-568h@2x.png */,
+				6352D1B916100ADE002CB780 /* Default.png */,
+				6352D1B616100A6A002CB780 /* Default@2x.png */,
 				63411CDB155B7EAD00561872 /* Radio */,
 				63411CF9155B7EAD00561872 /* RadioTests */,
 				63411CD4155B7EAD00561872 /* Frameworks */,
@@ -228,6 +237,9 @@
 			files = (
 				63411CE0155B7EAD00561872 /* InfoPlist.strings in Resources */,
 				63411CE9155B7EAD00561872 /* MainStoryboard.storyboard in Resources */,
+				6352D1B716100A6A002CB780 /* Default@2x.png in Resources */,
+				6352D1BA16100ADE002CB780 /* Default.png in Resources */,
+				6352D1BC16100AF7002CB780 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +333,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -336,6 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -346,6 +360,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -355,6 +370,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
